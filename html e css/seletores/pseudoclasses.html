@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com pseudo-classes</title>
+    <style>
+        div {
+            background-color: blue;
+            color: white;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: rgb(167, 173, 199);
+            color: rgb(255, 11, 11);
+        }
+        #d1, #d2, #d3 {
+            display: inline-block;
+            background-color: gray;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titulo 1</h1>
+        <h2>Sub-titulo</h2>
+        <main>
+            <p>Teste de como se trabalha com uma Pseudo-classe.</p>
+            <div>
+                Passe o mouse aqui.
+                <p>Viu o que aconteceu? Legal não é?! Isso só acontece porque inserimos uma pseudo que se chama ":hover"</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem alias veritatis, soluta sunt distinctio vitae fuga nisi harum minima eius, sed delectus eligendi voluptatum. Perspiciatis consectetur enim cum sed dignissimos?</p>
+        </main>
+    </header>
+    <div id="d1">div1</div>
+    <div id="d2">div2</div>
+    <div id="d3">div3</div>
+</body>
+</html>

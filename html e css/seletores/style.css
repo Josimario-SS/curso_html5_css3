@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(192, 224, 192, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(91, 146, 121);
+    padding: 2px;
+}
+#principal {
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(29, 29, 170), rgb(73, 62, 100));
+}
+.subt {
+    color: darkblue;
+    background-color: aquamarine;
+    text-align: center;
+}
+h2 {
+    color: rgb(206, 149, 26);
+}
+.t2 {
+    color: rgb(124, 43, 199);
+}
+.t3 {
+    color: rgb(243, 117, 13);
+}
+.t4 {
+    color: rgb(233, 28, 28);
+}

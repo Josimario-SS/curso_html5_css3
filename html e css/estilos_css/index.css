@@ -1,0 +1,40 @@
+header {
+  background-color: bisque;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+h1 {
+  color: rgb(85, 73, 33);
+}
+main {
+  background-color: antiquewhite;
+}
+#special {
+  border: 1px solid gray;
+}.stop {
+  background-color: red;
+}
+.alert {
+  background-color: yellow;
+  padding: 5px;
+}
+.go {
+  background-color: green;
+}
+a {
+  color: orange;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+}
+h2 + p::first-line{
+  font-size: 150%;
+  color: red;
+}
+h2 + p {
+  font-size: 150%;
+}
