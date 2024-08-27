@@ -120,17 +120,15 @@ img {
 div {
     background-color: var(--cor5);
     position: relative;
-    padding-bottom: 50%;
+    padding-bottom: 59%;
 }
 div > iframe {
     position: absolute;
-    top: 15px;
-    left: 30px;
-
-    width: 90%;
+    top: 18px;
+    left: 6px;
+    width: 98%;
     height: 90%;
 }
-
 aside {
     box-shadow: 3px 1px 11px rgba(0, 0, 0, 0.479);
     margin: 30px;
@@ -186,7 +184,6 @@ p > a:hover {
     margin: -15px 39px 27px 40px;
 }
 footer {
-    width: 100%;
     text-align: center;
     color: white;
     background-color: var(--cor4);
