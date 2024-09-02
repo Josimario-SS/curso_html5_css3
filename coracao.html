@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando um Coração com CSS</title>
+    <style>
+        body {
+            background-color: rgb(41, 38, 80);
+        }.coracao {
+            position: relative;
+            padding-bottom: 59%;
+        }
+        div#heart {
+            position: absolute;
+            top: 50px;
+            left: 400px;
+
+            
+            position: relative;
+            width: 100px;
+            height: 160px;
+            background-color: rgb(252, 2, 189);
+            border-radius: 200px 200px 0 0;
+            transform: rotate(45deg);
+        }
+        #heart::before {
+
+            content: " ";
+            position: absolute;
+            height: 160px;
+            width: 100px;
+            background-color: rgb(252, 2, 189);
+            border-radius: 200px 200px 0 0;
+            transform: rotate(-90deg);
+            top: 30px;
+            left: -30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="coracao">
+        <div id="heart"></div>
+    </div>
+</body>
+</html>
