@@ -21,8 +21,14 @@
 
 
 body {
+    height: 100vh;
+    background-image: url("../../imagens/robo002.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0px;
     background-color: #83e1ad;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header {
     padding: 40px;
@@ -34,6 +40,7 @@ header {
     margin: auto;
 }
 header > h1 {
+    text-shadow: 1px 1px 13px black;
     font-size: 3em;
 }
 header > p {
@@ -73,17 +80,17 @@ main {
     margin-top: 1px;
 }
 
-p {
+article {
+    padding-top: 16px;
+    margin: auto;
+}
+
+article > p {
     font-family: var(--fonte-padrão);
     text-indent: 20px;
     text-align: justify;
     padding-left: 15px;
     padding-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-article {
-    padding-top: 16px;
-    margin: auto;
 }
 article > h1, h2, h3 {
     font-family: var(--fonte-android);
@@ -151,7 +158,13 @@ aside > p {
     text-align: justify;
     padding: 10px;
     font-optical-sizing: auto;
+    font-family: var(--fonte-padrão);
+    text-indent: 20px;
+
+
+    
 }
+
 aside > ul {
     font-family: var(--fonte-padrão);
     font-size: 20px;
@@ -166,8 +179,8 @@ li::before {
 a {
     text-decoration: none;
 }
+
 p > a {
-    font-style: bold;
     color: #2fa866;
     font-style: bold;
     font-family: Arial, Helvetica, sans-serif;
