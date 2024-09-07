@@ -19,6 +19,7 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 header > h1 {
     padding-top: 50px;
@@ -63,6 +64,7 @@ section.normal {
 #imagem {
     background-color: rgba(43, 41, 41, 0.829);
     color: white;
+    box-shadow: inset  2px 5px 33px 2px rgba(0, 0, 0, 0.226) ;
 
     background-image: url("../projeto-cordel/imagens/ladybug-3475779_1280.jpg");
     background-size: cover;
@@ -72,6 +74,7 @@ section.normal {
 #imagem2 {
     background-color: rgba(43, 41, 41, 0.829);
     color: white;
+    box-shadow: inset  2px 5px 33px 2px rgba(0, 0, 0, 0.226) ;
 
     background-image: url("../projeto-cordel/imagens/book-419589_1280.jpg");
     background-size: cover;
@@ -88,6 +91,9 @@ section#imagem2 > p {
     background-color: rgba(0, 0, 0, 0.411);
     width: 310px;
     padding-left: 5px;
+}
+section > p {
+    padding-bottom: 2em;
 }
 
 footer {
