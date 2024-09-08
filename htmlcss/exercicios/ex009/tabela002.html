@@ -11,13 +11,35 @@
         table {
             width: 500px;
             border-collapse: collapse;
+
+            position: relative;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: black;
+        }
+
+        caption {
+            background-color: lightgray;
+            padding: 10px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+
         td, th {
             padding: 10px;
             border: 1px solid black;
         }
+
+
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(0, 0, 0);
             color: white;
         }
     </style>
@@ -26,10 +48,11 @@
     <h1>Uso de tabelas grandes</h1>
 
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
 
@@ -46,11 +69,95 @@
                 <td>Rio de Janeiro</td>
                 <td>546.454.565</td>
             </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>20.215.855</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>5.476.543</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>54.545.354</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>546.565.436</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>54.775.454</td>
+            </tr>
+            <tr></tr>
+                <td>São Paulo</td>
+                <td>45.500.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>463.544.646</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>546.454.565</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>20.215.855</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>5.476.543</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>54.545.354</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>546.565.436</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>54.775.454</td>
+            </tr>
+            <tr></tr>
+                <td>São Paulo</td>
+                <td>45.500.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>463.544.646</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>546.454.565</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td>20.215.855</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td>5.476.543</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td>54.545.354</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td>546.565.436</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td>54.775.454</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td><strong>1.055.499.211</strong></td>
             </tr>
         </tfoot>
