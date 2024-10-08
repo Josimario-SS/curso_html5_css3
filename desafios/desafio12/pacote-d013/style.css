@@ -29,3 +29,31 @@ main {
     width: 311px;
     background: url("../pacote-d013/imagens/frame-iphone.png");
 }
+
+#tela{
+    position: relative;
+    top: 79px;
+    left: 22px;
+    width: 267px;
+    height: 472px;
+
+    background-size: cover;
+}
+
+#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    margin: 10px;
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -5px);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.418);
+    transition: transform .5s;
+}
