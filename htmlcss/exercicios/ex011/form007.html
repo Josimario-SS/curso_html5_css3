@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on">
+        <p>
+            <label for="iest">Estados: </label>
+            <select name="est" id="iest">
+                <optgroup label=" Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PI">Piauí</option>
+                    <option value="BH">Bahia</option>
+                </optgroup>
+
+                <optgroup label="Região Norte">
+                    <option value="PA">Pará</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="RR">Roraima</option>
+                    <option value="AC">Acre</option>
+                </optgroup>
+            </select>
+
+        </p>
+
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+
+            <datalist id="lstprof">
+                <option>Desenvolvedor</option>
+                <option>Maquinista</option>
+                <option>Professor</option>
+                <option>Motorista</option>
+                <option>Pintor</option>
+                <option>Eletricista</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="com">Mensagem</label> <br>
+            <textarea name="com" id="icom" rows="5" cols="20" ></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
