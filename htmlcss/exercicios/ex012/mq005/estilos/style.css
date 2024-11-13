@@ -13,8 +13,22 @@ header {
     background-color: rgb(184, 183, 183);
     text-align: center;
 }
-menu {
+
+#burguer {
     display: block;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+menu {
+    display: none;
 }
 
 header > ul > li {
