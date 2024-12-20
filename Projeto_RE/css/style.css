@@ -1,0 +1,123 @@
+body { 
+
+    font-family: Arial, sans-serif; 
+  
+    margin: 0; 
+  
+    padding: 0; 
+  
+    background-color: #f4f4f4; 
+  
+    color: #333; 
+  
+  } 
+  
+  header { 
+  
+    background-color: #333; 
+  
+    color: white; 
+  
+    padding: 1rem; 
+  
+    text-align: center; 
+  
+} 
+
+nav ul { 
+
+  list-style-type: none; /* Remove marcadores da lista */ 
+
+  padding: 0; 
+
+} 
+
+nav li { 
+
+  display: inline; /* Exibe os itens da lista em linha */ 
+
+  margin: 0 15px; 
+
+} 
+
+nav a { 
+
+  color: white; /* Cor do texto dos links */ 
+
+  text-decoration: none; /* Remove sublinhado dos links */ 
+
+} 
+
+#banner { 
+
+  background-image: url("banner.jpg"); /* Imagem de fundo */ 
+
+  background-size: cover; 
+
+  color: rgb(24, 22, 22); 
+
+  text-align: center; 
+
+  padding: 5rem 0; /* Adiciona padding superior e inferior */ 
+
+} 
+
+#destaques { 
+
+  padding: 20px; 
+
+} 
+
+.produtos { 
+
+  display: flex; 
+
+  justify-content: space-around; 
+
+  flex-wrap: wrap; 
+
+} 
+
+.produto { 
+
+  width: 250px; 
+
+  border: 1px solid #ddd; 
+
+  padding: 20px; 
+
+  margin-bottom: 20px; 
+
+  text-align: center; 
+
+  background-color: white; 
+
+} 
+
+.produto img { 
+
+  max-width: 100%; 
+
+  height: auto; 
+
+  margin-bottom: 10px; 
+
+} 
+
+footer { 
+
+  background-color: #333; 
+
+  width: 100%; 
+
+  color: white; 
+
+  text-align: center; 
+
+  padding: 1rem; 
+
+  position: fixed; 
+
+  bottom: 0; 
+
+}
