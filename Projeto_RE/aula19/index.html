@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 19</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            background-color: #adc3db;
+        }
+
+        table {
+
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        form {
+            border: 1px solid black;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+
+    
+
+    <form action="contato.php" method="post">
+        <h1>Atendimento</h1>
+        <p>Entre em contato preenchencdo o formulário. Teremos o maior prazer em atender o seu contato</p>
+        <table>
+
+            </th>
+            <tr>
+                <td colspan="5"><input type="radio" name="ipessoaFisica" id="">
+                    <label for="">Pessoa Física</label>
+
+                    <input type="radio" name="ipessoaFisica" id="">
+                    <label for="">Pessoa Física</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="icpf">CPF/CNPJ: </label>
+                    
+                </td>
+                <td><input type="text" name="cpf" id="icpf" required placeholder="Seu CPF/CNPJ..." size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="iname">Nome:</label>
+                    
+                </td>
+                <td><input type="text" name="name" id="iname" required placeholder="Seu nome..." size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="iemail">E-mail: </label>
+                    
+                </td>
+                <td><input type="email" name="email" id="iemail" required placeholder="Seu email..." size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="ifone">Fone: </label>
+                    
+                </td>
+                <td><input type="tel" name="fone" id="ifone" required placeholder="(xx) xxxx-xxxx" size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="icidade">Cidade: </label>
+                    
+                </td>
+                <td><input type="text" name="cidade" id="icidade" required placeholder="Ex: São Paulo" size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="iassunto">Assunto: </label>
+                    
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="" disabled selected>Escolha uma opção</option>
+                        <option value="">opção 1</option>
+                        <option value="">opção 2</option>
+                        <option value="">opção 3</option>
+                        <option value="">opção 4</option>
+                    </select> 
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="assunto">Mensagem: </label>
+                    
+                </td>
+                <td><textarea name="" id="iassunto">Digite algo...</textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Enviar">
+                </td>
+                <td><input type="reset" value="Limpar"></td>
+            </tr>
+        </table>
+    </form>
+
+    <!--
+    <select name="estado" id="text">
+        <option value="" selected disabled>Selecione uma cor</option>
+        <option value="">Verde</option>
+        <option value="">Azul</option>
+        <option value="">Laranja</option>
+        <option value="">Roxo</option>
+    </select>
+
+
+
+    <form action="cadastro.php" method="post">
+        <h1>Atendimento</h1>
+        <p>Entre em contato preenchencdo o formulário. Teremos o maior prazer em atender o seu contato</p>
+
+        <input type="radio" name="ipessoaFisica" id="">
+        <label for="">Pessoa Física</label>
+        
+        <input type="radio" name="ipessoaFisica" id=""> 
+        <label for="">Pessoa Física</label>
+        <br>
+
+        <label for="icpf">CPF/CNPJ: </label>
+        <input type="text" name="cpf" id="icpf" required placeholder="Seu CPF/CNPJ..." size="30"> <br>
+
+        <label for="iname">Nome: </label>
+        <input type="text" name="name" id="iname" required placeholder="Seu nome..." size="30"> <br>
+
+        <label for="iemail">E-mail: </label>
+        <input type="email" name="email" id="iemail" required placeholder="Seu email..." size="30"> <br>
+
+        <label for="ifone">Fone: </label>
+        <input type="tel" name="fone" id="ifone" required placeholder="(xx) xxxx-xxxx" size="30"> <br>
+
+        <label for="isenha">Cidade: </label>
+        <input type="text" name="cidade" id="icidade" required placeholder="Ex: São Paulo" size="30"> <br>
+
+        <label for="iassunto">Assunto: </label>
+        <select name="" id="">
+            <option value="" disabled selected>Escolha uma opção</option>
+            <option value="">opção 1</option>
+            <option value="">opção 2</option>
+            <option value="">opção 3</option>
+            <option value="">opção 4</option>
+        </select> <br>
+
+        <label for="assunto">Área de texto</label>
+        <textarea name="" id="iassunto">Digite algo...</textarea>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar ">
+    </form>
+-->
+</body>
+</html>
