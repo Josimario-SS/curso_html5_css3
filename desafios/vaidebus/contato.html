@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+
+            
+        }
+        main {
+            flex: auto;
+        }
+        #barra {
+            width: 700px;
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 10px 30px 10px 30px;
+            font-size: 1.3em;
+        }
+
+        form {
+            display: flex;
+
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    
+    <img class="img1" src="../imagens/cabecalho.png" alt="">
+    
+    <nav>
+        <a href="index.html">HOME | </a>
+        <a href="modalidade.html" target="_blank">MODALIDADES | </a>
+        <a href="fretamento.html" target="_blank">FRETAMENTO | </a>
+        <a href="vantagens.html" target="_blank">VANTAGENS | </a>
+        <a href="contato.html" target="_blank">CONTATO</a>
+    </nav>
+
+
+    <img id="barra" src="../imagens/barra1.png" alt="">
+
+    <h1>ATENDIMENTO</h1>
+    <P>Entre em contato com <em>Nome da empresa </em>preenchendo o formulário ao lado. Teremos o maior prazer em atender ao seu contato.</P>
+
+
+    <form action="contato.php" method="post">
+        
+        <table>
+
+            </th>
+            <tr>
+                <td colspan="5"><input type="radio" name="ipessoaFisica" id="">
+                    <label for="">Pessoa Física</label>
+
+                    <input type="radio" name="ipessoaFisica" id="">
+                    <label for="">Pessoa Física</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="icpf">CPF/CNPJ: </label>
+                    
+                </td>
+                <td><input type="text" name="cpf" id="icpf" required placeholder="Seu CPF/CNPJ..." size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="iname">Nome:</label>
+                    
+                </td>
+                <td><input type="text" name="name" id="iname" required placeholder="Seu nome..." size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="iemail">E-mail: </label>
+                    
+                </td>
+                <td><input type="email" name="email" id="iemail" required placeholder="Seu email..." size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="ifone">Fone: </label>
+                    
+                </td>
+                <td><input type="tel" name="fone" id="ifone" required placeholder="(xx) xxxx-xxxx" size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="icidade">Cidade: </label>
+                    
+                </td>
+                <td><input type="text" name="cidade" id="icidade" required placeholder="Ex: São Paulo" size="30"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="iassunto">Assunto: </label>
+                    
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="" disabled selected>Escolha uma opção</option>
+                        <option value="">opção 1</option>
+                        <option value="">opção 2</option>
+                        <option value="">opção 3</option>
+                        <option value="">opção 4</option>
+                    </select> 
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><label for="assunto">Mensagem: </label>
+                    
+                </td>
+                <td><textarea name="" id="iassunto">Digite algo...</textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Enviar">
+                </td>
+                <td><input type="reset" value="Limpar"></td>
+            </tr>
+        </table>
+    </form>
+
+
+    <footer>
+        <address><p>VAI DE BUS - </p>Todos os direitos reservados. Rua Ipiranga, 123 | Sapiranga/RS | Fone: (051) 3670-0010</address>
+    </footer>
+
+    
+</body>
+</html>

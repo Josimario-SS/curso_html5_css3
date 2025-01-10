@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(226, 221, 213);
+}
+
+main {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+    font-size: 0.90em;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+
+
+div {
+    border-top: 5px solid black;
+    border-radius: 30px;
+    height: 220px;
+    background-color: white;
+
+    margin-top: 50px;
+}
+.img1 {
+    width: 700px;
+}
+
+.img2 {
+    width: 700px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+
+    top:  16px;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 60px;
+    padding-top: 20px;
+    font-size: 0.80em;
+    padding: 20px;
+}
