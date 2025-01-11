@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(226, 221, 213);
+    display: flex;
 }
 
 main {
@@ -13,6 +14,7 @@ main {
     margin: auto;
     background-color: white;
     font-size: 0.90em;
+    flex: auto;
 }
 
 nav {
@@ -28,6 +30,7 @@ div {
     background-color: white;
 
     margin-top: 50px;
+    flex: 1 1 auto;
 }
 .img1 {
     width: 700px;
@@ -49,3 +52,5 @@ footer {
     font-size: 0.80em;
     padding: 20px;
 }
+
+

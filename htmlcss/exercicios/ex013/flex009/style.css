@@ -1,0 +1,44 @@
+.flex-container {
+    display: flex;
+    background-color: beige;
+    border: 1px solid black;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+    height: 450px;
+}
+
+#cabecalho {
+    background-color: blueviolet;
+    margin-top: 5px;
+    margin: auto;
+    width: 90%;
+    height: 70px;
+}
+
+#corpo {
+    display: flex;
+
+    background-color: rgb(43, 220, 226);
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}
+
+#cima {
+    background-color: chocolate;
+    width: 47%;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#baixo {
+    background-color: rgb(30, 93, 210);
+    width: 37%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}

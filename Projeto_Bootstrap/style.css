@@ -1,0 +1,58 @@
+/*LINK DO GOOGEL FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sriracha&display=swap');
+
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: gray;
+    font-size: 14px;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+header, .navbar {
+    background-color: #353D41;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#navbar-links a:hover {
+    background-color: rgb(156, 156, 156);
+    box-shadow: 2px 2px 10px rgba(150, 150, 190, 0.301);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    margin-right: 30px;
+}
