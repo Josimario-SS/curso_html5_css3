@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container"> 
+      
+          <a class="navbar-brand" href="#">    
+            Sua Loja de Roupas
+          </a>
+      
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto"> <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Feminino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Masculino</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Promoções</a>
+              </li>
+      
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="bi bi-cart"></i> 
+                </a>
+              </li>  
+            </ul>
+          </div>
+        </div>
+      </nav> 
+
+
+
+      <div class="container mt-4">
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">      
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>      
+          <div class="carousel-inner bg-dark">
+            <div class="carousel-item active">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJJWJtJvkHQ3AIGUYJu0bj2P-4vII6-Ve-Q&s" class="d-block w-100 imagem-container2" alt="Camisa em promoção">
+              <div class="carousel-caption">
+                <h5>Promoção de Camisetas!</h5>
+                <p>Aproveite os descontos imperdíveis.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1P944dXZ13eJ1Jubt4MmxFx7DoxbIm4-PXA&s" class="d-block w-100 imagem-container2" alt="Nova coleção">
+              <div class="carousel-caption">
+                <h5>Promoção de Camisetas!</h5>
+                <p>Aproveite os descontos imperdíveis.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaM8BiVP8O3-eKAyMSHavnqWOCslKBf_iHIA&s" class="d-block w-100 imagem-container2" alt="Acessórios">
+              <div class="carousel-caption">
+                <h5>Promoção de Camisetas!</h5>
+                <p>Aproveite os descontos imperdíveis.</p>
+              </div>
+            </div>
+          </div>      
+          <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+    </div>
+
+
+
+
+    <table class="table table-striped table-bordered table-hover table-condensed"> 
+
+        <thead> 
+        
+        <tr> 
+        
+         <th>#</th> 
+        
+        <th>Firstname</th> 
+        
+        </tr> 
+        
+        </thead> 
+        
+        <tbody> 
+        
+        <tr> 
+        
+        <td>1</td> 
+        
+        <td>Anna</td> 
+        
+        </tr> 
+        
+        <tr> 
+        
+        <td>2</td> 
+        
+        <td>Debbie</td> 
+        
+        </tr> 
+        
+        <tr> 
+        
+        <td>3</td> 
+        
+        <td>John</td> 
+        
+        </tr> 
+        
+        </tbody> 
+        
+        </table>
+
+        <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Anna</td>
+                    <td>Pitt</td>
+                    <td>35</td>
+                    <td>New York</td>
+                    <td>USA</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="container mt-4">
+        <div class="accordion" id="clothesAccordion">      
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Camisetas
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#clothesAccordion">
+              <div class="accordion-body">
+                Nossas camisetas são confeccionadas em algodão de alta qualidade, com estampas exclusivas e modelagem moderna. Perfeitas para o dia a dia ou para ocasiões especiais.
+              </div>
+            </div>
+          </div>      
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Calças
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#clothesAccordion">
+              <div class="accordion-body">
+                Nossas calças jeans e de sarja combinam estilo e conforto, com diferentes cortes e lavagens para todos os gostos. Encontre o modelo ideal para você!
+              </div>
+            </div>
+          </div>      
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Vestidos
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#clothesAccordion">
+              <div class="accordion-body">
+                Nossos vestidos são a escolha perfeita para mulheres que buscam elegância e feminilidade. Modelos para todas as ocasiões, do casual ao sofisticado.
+              </div>
+            </div>
+          </div>      
+        </div>
+      </div>
+
+
+    <div class="container mt-4">
+        <div class="row">      
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./imagens/c4.png" class="card-img-top imagem-container">
+              <div class="card-body">
+                <h5 class="card-title">Camiseta Amarela</h5>
+                <p class="card-text">Camiseta masculina, tecido macio e confortável.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./imagens/c3.png" class="card-img-top imagem-container" >
+              <div class="card-body">
+                <h5 class="card-title">Camiseta Azul</h5>
+                <p class="card-text">Camiseta masculina, tecido macio e confortável.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="./imagens/c2.png" class="card-img-top imagem-container" >
+              <div class="card-body">
+                <h5 class="card-title">Jaqueta Jeans</h5>
+                <p class="card-text">Jaqueta jeans unissex, estilo clássico e versátil.</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div> 
+      
+      
+
+
+      <div class="container mt-4">
+        <h2>Nos conte seus produtos preferidos!</h2>
+      
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+          </div>
+      
+          <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+          </div>
+      
+          <div class="mb-3">
+            <label for="produtos" class="form-label">Produtos Preferidos:</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="camisetas">
+              <label class="form-check-label" for="camisetas">Camisetas</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="calcas">
+              <label class="form-check-label" for="calcas">Calças</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="vestidos">
+              <label class="form-check-label" for="vestidos">Vestidos</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="acessorios">
+              <label class="form-check-label" for="acessorios">Acessórios</label>
+            </div>
+          </div>
+      
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="mensagem" rows="3"></textarea>
+          </div>
+      
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>   
+</body>
+</html>
