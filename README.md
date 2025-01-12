@@ -7,3 +7,4 @@
 <p>Acesse o <a href="https://josimario-ss.github.io/curso_html5_css3/desafios/projeto-cordel/desafio.html">mini projeto Cordel</a> que fiz para o curso em video</p>
 
 <p>Acesse o<a href="https://josimario-SS.github.io/curso_html5_css3/desafios/projeto-social.index.html"> mini projeto Social</a> que fiz para o curso o video</p>
+
