@@ -1,0 +1,9 @@
+.carousel-inner {
+    background-image: url("imagens/download\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.carousel-caption {
+    height: 50vh;
+}
