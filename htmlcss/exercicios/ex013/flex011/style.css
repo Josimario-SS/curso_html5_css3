@@ -10,6 +10,14 @@ body {
     line-height: 1.5em;
 }
 
+.media {
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
 p, h1, h2 {
     margin-bottom: 10px;
     text-align: justify;
@@ -21,4 +29,28 @@ header, section.normal {
 section.flex-content {
     padding: 20px;
     background-color: rgba(129, 129, 129, 0.329);
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+}
+article.media-text {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap-reverse;
+}   
+
+article > div.text {
+    padding: 10px;
+    flex: 1 1 500px;
+
+}
+article > div.media {
+    flex: 1 0 500px;
+
 }
