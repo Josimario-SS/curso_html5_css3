@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+}
+      
+.flex-content {
+  display: flex;
+  flex-direction: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+  input {
+    padding: 15px;
+  }
+  button {
+    background-color: #2E8B57;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+  }
+  
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    box-shadow: 0 0 10px 	#DCDCDC;
+    margin-bottom: 2%;
+    cursor: pointer;
+  }
+  .item.clicado {
+    background-color: #98FB98;
+  }
+  .item.clicado .item-nome {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .mdi-check-circle {
+    color: green;
+  }
+  .item-icone {
+    flex: 10%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .item-nome {
+    flex: 55%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .item-botao {
+    flex: 25%;
+  }
+.delete {
+  background-color: red;
+  width: 100%;
+}
