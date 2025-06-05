@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de grid</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         .container {
+            border: 3px solid blue;
+            height: 300px;
             display: grid;
             grid-template-columns: auto auto auto;
-            grid-template-rows: auto auto;
-            gap: 5px;
+            grid-template-rows: auto auto auto;
+            gap: 10px;
 
-            border: 1px solid black;
+            align-items: stretch;
+            justify-items: stretch;
+            align-content: normal;
+            justify-content: normal; /*ALIGN E JUSTIFY-CONTENT POSSUEM ALÉM DOS VALORES CENTER, END E START, OS VALORES SPACE-BETWEEN, AROUND E EVENLY*/
+
             text-align: center;
+
+
         }
 
         .paragraph {
@@ -33,12 +36,14 @@
 <body>
     <main>
         <div class="container">
-            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-            <p class="paragraph-2">Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
-            <p class="paragraph">Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
-            <p class="paragraph-2">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.</p>
-            <p class="paragraph">Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.</p>
-            <p class="paragraph-2">In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.</p>
+            <p class="paragraph">A</p>
+            <p class="paragraph-2">B</p>
+            <p class="paragraph">C</p>
+            <p class="paragraph-2">D</p>
+            <p class="paragraph">E</p>
+            <p class="paragraph-2">F</p>
+            <p class="paragraph">G</p>
+            <p class="paragraph-2">H</p>
         </div>
     </main>
 </body>
